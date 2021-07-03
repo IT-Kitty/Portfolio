@@ -200,3 +200,60 @@ body {
 	left: 0;
 	z-index: 2;
 }
+
+.my-works {
+  padding: 0 50px;
+  height: 900px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.subheading-works {
+  font-size: 50px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.container-works-up {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.container-works-down {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 150px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 0 0 20px 20px;
+}
+
+.card img {
+  width: 450px;
+  height: 200px;
+  padding: 0;
+  margin: 0;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container-card {
+    font-size: 24px;
+    text-align: center;
+    background-color: #8DA2ED;
+    color: #ffffff;
+    border-radius: 0 0 20px 20px;
+    padding: 1px 0px;
+
+}
