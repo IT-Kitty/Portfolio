@@ -4,35 +4,75 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="normalize.css">
-  <link rel="stylesheet" href="style-ight-theme.css" id="theme">
+  <link rel="stylesheet" href="style-light-theme.css" id="theme">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
   <title>Портфолио Junior Developer</title>
 </head>
 
 <body>
-  <header class="page-header">
-    <div class="container">
-      Контакты в шапке
-    </div>
-  </header>
+  <section class="main-section">
+    <header class="page-header">
+      <div class="container-networks">
+        <a class="header-email" href="mailto:katerina.kvtn.skh@gmail.com">katerina.kvtn.skh@gmail.com</a>
+        <a class="header-phone" href="tel:+79621007559">+79621007559</a>
+      </div>
+    </header>
 
-  <section class="hero-image">
-    <div class="container">
+    <div class="container-title">
       <h1 class="heading">Kate Kovtun</h1>
-      <p>Junior Developer</p>
+      <span class="subtitle">Junior Developer</span>
     </div>
   </section>
 
   <section class="intro">
-    <div class="container">
+    <div class="container-profile">
+      <img src="img/profile.png" class="profile-photo" alt="Photo profile">
+    </div>
+    <div class="container-intro">
       <h2 class="subheading">Давайте познакомимся</h2>
-      <h3>Пара слов о себе</h3>
-      <p>Я начинающий разработчик, который имеет хорошие навыки верстки на данный момент.
-        Я продолжаю развиваться в веб-индустрии, но уже могу создавать проекты и воплощать ваши идеи.
-      </p>
-      <h3>Чем могу быть полезен</h3>
-      <p>Веб-дизайн, верстка, сайт не под ключ. Любые идеи и проекты, которые у вас есть,
-        я могу воплотить за невысокую цену.
-      </p>
+      <div class="info">
+        <span>
+          <h3 class="p-title">Пара слов о себе</h3>
+          <p class="text-intro">Я начинающий разработчик, который имеет хорошие навыки верстки на данный момент.
+          Я продолжаю развиваться в веб-индустрии, но уже могу создавать проекты и воплощать ваши идеи.
+          </p>
+        </span>
+        <span>
+          <h3 class="p-title">Чем могу быть полезна</h3>
+          <p class="text-intro">Веб-дизайн, верстка, фронтенд. Любые идеи и проекты, которые у вас есть,
+          я могу воплотить за невысокую цену.
+          </p>
+        </span>
+        <div class="scale">
+          <div class="scale-title">
+            <strong>HTML</strong>
+            <span><i></i> 85 percent</span>
+          </div>
+          <div class="value">
+            <div class="value-percent html"></div>
+          </div>
+        </div>
+        <div class="scale">
+          <div class="scale-title">
+            <strong>CSS</strong>
+            <span><i></i> 70 percent</span>
+          </div>
+          <div class="value">
+            <div class="value-percent css"></div>
+          </div>
+        </div>
+        <div class="scale">
+          <div class="scale-title">
+            <strong>JS</strong>
+            <span><i></i> 35 percent</span>
+          </div>
+          <div class="value">
+            <div class="value-percent js"></div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 

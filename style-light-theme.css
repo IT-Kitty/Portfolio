@@ -1,0 +1,202 @@
+body {
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto Mono";
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+
+  background-color: #ffffff;
+}
+
+.main-section {
+  width: auto;
+  height: 1000px;
+  background-color: #ffffff;
+  background: url("img/hero-bg.jpg") no-repeat 720px 0;
+}
+
+.page-header {
+  width: auto;
+  height: 87px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 72px;
+}
+
+.container-networks {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  
+}
+
+.header-email {
+  width: 405px;
+  padding-left: 35px;
+  text-decoration: none;
+  color: #000;
+  background: url(img/icon-email-header.svg) no-repeat left;
+  background-size: 30px 25px;
+  line-height: 30px;
+  font-size: 20px;
+  font-family: "Roboto Mono";
+}
+
+.header-phone {
+  width: 205px;
+  padding-left: 30px;
+  text-decoration: none;
+  color: #000;
+  background: url(img/icon-phone-header.svg) no-repeat left;
+  background-size: 28px 25px;
+  line-height: 30px;
+  font-size: 20px;
+  font-family: "Roboto Mono";
+}
+
+.main-section .container-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-title {
+  display: flex;
+  flex-direction: column;
+  height: 165px;
+  justify-content: center;
+  width:688px;
+  margin-left: 220px;
+  margin-top: 220px;
+}
+
+.heading {
+  color: #8DA2ED;
+  font-weight: 500;
+  font-size: 104px;
+
+}
+
+.subtitle {
+  font-size: 36px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 120px;
+  height: 900px;
+}
+
+.profile-photo {
+  width: 552px;
+  height: 679px;
+}
+
+.container-intro {
+  width: 650px;
+  margin-top: -50px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.subheading {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.p-title{
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.text-intro {
+  font-size: 22px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.scale {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.scale-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.scale-title > strong {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #000
+}
+
+.scale-title > span {
+  font-size: 18px;
+  color: #000;
+}
+
+.value {
+  width: 250px;
+  height: 10px;
+  width: 100%;
+	height: 10px;
+	background-image: url('https://i.imgur.com/UypqH8g.png');
+	background-size: contain;
+	border-radius: 3px;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.value-percent.html{
+	width: 85%;
+	height: 100%;
+	background-image: url('https://i.imgur.com/ykLlkq8.png');
+	background-size: contain;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.value-percent.css{
+	width: 70%;
+	height: 100%;
+	background-image: url('https://i.imgur.com/ykLlkq8.png');
+	background-size: contain;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.value-percent.js {
+	width: 35%;
+	height: 100%;
+	background-image: url('https://i.imgur.com/ykLlkq8.png');
+	background-size: contain;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
