@@ -1,3 +1,10 @@
+*{
+  font-family: "Roboto Mono";
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   min-width: 960px;
   margin: 0;
@@ -24,9 +31,23 @@ body {
   height: 87px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
-  padding-right: 20px;
+  padding: 0 20px;
+}
+
+.switch {
+  padding: 8px;
+  background-color: #8DA2ED;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  outline: none;
+}
+
+.switch:hover {
+  box-shadow: #000 2px 2px 2px;
 }
 
 .container-networks {
@@ -252,8 +273,7 @@ a {
 
 .container-card {
     width: 400px;
-    height: 25px;
-    padding: 25px 0;
+    padding: 30px 0;
     margin: -10px 0;
     font-size: 28px;
     font-weight: 400; 
@@ -277,12 +297,13 @@ a {
 .container-networks-footer {
   display: flex;
   flex-direction: column;
-  margin-bottom: 30px
+  margin-bottom: 30px;
 }
 
-.container-networks-footer a {
+.copyright-link {
     color: #ffffff;
-    font-size: 22px;
+    text-decoration: none;
+    font-size: 20px;
     padding-bottom: 10px;
 }
 
@@ -291,6 +312,30 @@ a {
   flex-direction: column;
   justify-content: center;
   
+}
+
+.footer-email {
+  width: 405px;
+  padding-left: 35px;
+  text-decoration: none;
+  color: #fff;
+  background: url(img/icon-email-header.svg) no-repeat left;
+  background-size: 30px 25px;
+  line-height: 30px;
+  font-size: 18px;
+  font-family: "Roboto Mono";
+}
+
+.footer-phone {
+  width: 205px;
+  padding-left: 30px;
+  text-decoration: none;
+  color: #fff;
+  background: url(img/icon-phone-header.svg) no-repeat left;
+  background-size: 28px 25px;
+  line-height: 30px;
+  font-size: 18px;
+  font-family: "Roboto Mono";
 }
 
 .container-social {
