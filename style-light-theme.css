@@ -13,9 +13,10 @@ body {
 
 .main-section {
   width: auto;
-  height: 1000px;
+  height: 780px;
   background-color: #ffffff;
   background: url("img/hero-bg.jpg") no-repeat 720px 0;
+  margin-bottom: 100px;
 }
 
 .page-header {
@@ -25,7 +26,7 @@ body {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  padding-right: 72px;
+  padding-right: 20px;
 }
 
 .container-networks {
@@ -45,7 +46,7 @@ body {
   background: url(img/icon-email-header.svg) no-repeat left;
   background-size: 30px 25px;
   line-height: 30px;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Roboto Mono";
 }
 
@@ -57,7 +58,7 @@ body {
   background: url(img/icon-phone-header.svg) no-repeat left;
   background-size: 28px 25px;
   line-height: 30px;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Roboto Mono";
 }
 
@@ -74,18 +75,18 @@ body {
   justify-content: center;
   width:688px;
   margin-left: 220px;
-  margin-top: 220px;
+  margin-top: 180px;
 }
 
 .heading {
   color: #8DA2ED;
   font-weight: 500;
-  font-size: 104px;
+  font-size: 90px;
 
 }
 
 .subtitle {
-  font-size: 36px;
+  font-size: 28px;
 }
 
 .intro {
@@ -93,12 +94,12 @@ body {
   flex-direction: row;
   justify-content: space-between;
   padding: 0 120px;
-  height: 900px;
+  height: 750px;
 }
 
 .profile-photo {
-  width: 552px;
-  height: 679px;
+  width: 500px;
+  height: 650px;
 }
 
 .container-intro {
@@ -110,17 +111,17 @@ body {
 }
 
 .subheading {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 500;
 }
 
 .p-title{
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 500;
 }
 
 .text-intro {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 400;
   padding-bottom: 20px;
 }
@@ -202,8 +203,8 @@ body {
 }
 
 .my-works {
-  padding: 0 50px;
-  height: 900px;
+  padding: 0 90px;
+  height: 850px;
 }
 
 a {
@@ -228,17 +229,18 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 0 150px;
+  padding: 0 200px;
 }
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 0 0 20px 20px;
+    height: 270px;
 }
 
 .card img {
-  width: 450px;
+  width: 400px;
   height: 200px;
   padding: 0;
   margin: 0;
@@ -249,11 +251,60 @@ a {
 }
 
 .container-card {
-    font-size: 24px;
+    width: 400px;
+    height: 25px;
+    padding: 25px 0;
+    margin: -10px 0;
+    font-size: 28px;
+    font-weight: 400; 
     text-align: center;
     background-color: #8DA2ED;
     color: #ffffff;
     border-radius: 0 0 20px 20px;
-    padding: 1px 0px;
+}
 
+.page-footer{
+  height: 300px;
+  background-color: #515151;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #ffffff;
+  padding: 0 250px;
+  align-items: center;
+}
+
+.container-networks-footer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px
+}
+
+.container-networks-footer a {
+    color: #ffffff;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.container-contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.container-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 280px;
+  align-items: center;
+}
+
+.social-media img{
+  width: 70px;
+}
+
+.copyright {
+  font-size: 20px;
 }
