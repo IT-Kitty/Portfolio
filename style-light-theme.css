@@ -115,7 +115,8 @@ body {
   flex-direction: row;
   justify-content: space-between;
   padding: 0 120px;
-  height: 750px;
+  height: 700px;
+  margin-bottom: 100px;
 }
 
 .profile-photo {
@@ -128,6 +129,7 @@ body {
   margin-top: -50px;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 
 }
 
@@ -139,18 +141,20 @@ body {
 .p-title{
   font-size: 28px;
   font-weight: 500;
+  padding-bottom: 30px;
 }
 
 .text-intro {
   font-size: 20px;
   font-weight: 400;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 .info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
 }
 
 .scale {
